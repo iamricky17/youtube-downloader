@@ -28,43 +28,64 @@ Perfect for:
 
 ---
 
-## **Installation**  
+## **Installation**
 
 ### **1. Clone the Repository**  
+```bash
 git clone https://github.com/iamricky17/youtube-downloader.git  
 cd youtube-downloader  
-### **2. Backend Setup**
-Navigate to the backend directory:
+```
 
-
+### **2. Backend Setup**  
+Navigate to the backend directory:  
+```bash
 cd backend  
-Install the required Python dependencies:
+```
+
+Install the required Python dependencies:  
 
 
+```bash
 pip install -r requirements.txt  
-Start the backend server:
+```
 
-
+Start the backend server:  
+```bash
 python app.py  
-### **3. Frontend Setup**
-Open the frontend/index.html file in your browser for access.
-Usage
-Paste a valid YouTube URL in the input field.
-Fetch available video and subtitle options.
-Select your preferences and hit Download.
-Enjoy your downloaded video and subtitles offline!
-How It Works
-Input Processing: Extracts video details from the provided YouTube URL.
-Video Quality Fetching: Fetches available formats via yt-dlp.
-Subtitle Integration: Checks and retrieves subtitle files for the video.
-Download Options: Provides a tailored list of video and subtitle download choices.
-Future Enhancements
-🎵 Audio Downloads: Add support for audio-only formats like MP3.
-🌍 Subtitle Languages: Support multiple languages for subtitles.
-⚡ Batch Processing: Allow users to download multiple videos at once.
-📱 Mobile Compatibility: Optimize UI for smartphones and tablets.
-Contributing
-Contributions, feedback, and feature requests are welcome! Fork the repository, create a branch, and submit a pull request.
+```
 
-License
-This project is licensed under the MIT License.
+### **3. Frontend Setup**  
+Open the `frontend/index.html` file in your browser for access.
+
+---
+
+## **Usage**
+
+1. Paste a valid YouTube URL in the input field.  
+2. Fetch available video and subtitle options.  
+3. Select your preferences and hit Download.  
+4. Enjoy your downloaded video and subtitles offline!
+
+---
+
+## **How It Works**
+
+1. **Input Processing**: Extracts video details from the provided YouTube URL.  
+2. **Video Quality Fetching**: Fetches available formats via yt-dlp.  
+3. **Subtitle Integration**: Checks and retrieves subtitle files for the video.  
+4. **Download Options**: Provides a tailored list of video and subtitle download choices.  
+
+---
+
+## **Future Enhancements**
+
+- 🎵 **Audio Downloads**: Add support for audio-only formats like MP3.  
+- 🌍 **Subtitle Languages**: Support multiple languages for subtitles.  
+- ⚡ **Batch Processing**: Allow users to download multiple videos at once.  
+- 📱 **Mobile Compatibility**: Optimize UI for smartphones and tablets.
+
+---
+
+## **Contributing**
+
+Contributions, feedback, and feature requests are welcome! Fork the repository, create a branch, and submit a pull request.
