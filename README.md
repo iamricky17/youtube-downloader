@@ -1,50 +1,41 @@
 # **YouTube Downloader**  
-Seamlessly download YouTube videos and subtitles in just a few clicks. This lightweight, user-friendly tool is designed to fetch video formats, subtitle files, and offer effortless downloads directly from YouTube.  
 
-[View on GitHub](https://github.com/iamricky17/youtube-downloader)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
-[![Stars](https://img.shields.io/github/stars/iamricky17/youtube-downloader)](https://github.com/iamricky17/youtube-downloader/stargazers)  
-[![Issues](https://img.shields.io/github/issues/iamricky17/youtube-downloader)](https://github.com/iamricky17/youtube-downloader/issues)  
+A lightweight, user-friendly tool to seamlessly download YouTube videos and subtitles. Fetch multiple video formats and subtitles with ease, directly from YouTube.  
 
-[![Downloads](https://pepy.tech/badge/flexible-requirements)](https://pepy.tech/project/flexible-requirements)  
-[![Downloads](https://pepy.tech/badge/flexible-requirements/month)](https://pepy.tech/project/flexible-requirements)  
-[![Downloads](https://pepy.tech/badge/flexible-requirements/week)](https://pepy.tech/project/flexible-requirements)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) ![Stars](https://img.shields.io/github/stars/iamricky17/youtube-downloader)  ![Forks](https://img.shields.io/github/forks/iamricky17/youtube-downloader) ![Issues](https://img.shields.io/github/issues/iamricky17/youtube-downloader) ![Last Commit](https://img.shields.io/github/last-commit/iamricky17/youtube-downloader)
 
 ---
 
 ## **Real-Life Use Cases**  
-Perfect for:  
-- **Students & Researchers**: Quickly grab lecture videos and accompanying subtitles.  
-- **Content Creators**: Access videos and subtitles for inspiration or editing.  
-- **Travelers**: Download videos to watch offline when internet connectivity is limited.  
+- **Students & Researchers**: Download lecture videos and subtitles for offline study.  
+- **Content Creators**: Access videos and subtitles to enhance creative projects.  
+- **Travelers**: Download videos to watch without needing an internet connection.  
 
 ---
 
-## **Features**  
-- 🎥 **Video Downloads**: Choose from multiple video quality options (1080p, 720p, etc.).  
-- 📝 **Subtitle Support**: Automatically fetch and download subtitles in TTML format.  
-- 🚀 **Simple Interface**: Easy-to-use frontend for hassle-free interaction.  
-- 🔄 **Cross-Platform**: Works on Windows, macOS, and Linux.  
+## **Key Features**  
+- **Video Downloads**: Choose from various video qualities, including 1080p and 720p.  
+- **Subtitle Support**: Fetch and download subtitles in TTML format effortlessly.  
+- **User-Friendly Interface**: Simplified frontend for hassle-free navigation.  
+- **Cross-Platform Compatibility**: Works on Windows, macOS, and Linux systems.  
 
 ---
 
 ## **Installation**
 
-### **1. Clone the Repository**  
+### **Step 1: Clone the Repository**  
 ```bash
 git clone https://github.com/iamricky17/youtube-downloader.git  
 cd youtube-downloader  
 ```
 
-### **2. Backend Setup**  
+### **Step 2: Backend Setup**  
 Navigate to the backend directory:  
 ```bash
 cd backend  
 ```
 
 Install the required Python dependencies:  
-
-
 ```bash
 pip install -r requirements.txt  
 ```
@@ -54,38 +45,42 @@ Start the backend server:
 python app.py  
 ```
 
-### **3. Frontend Setup**  
-Open the `frontend/index.html` file in your browser for access.
+### **Step 3: Frontend Setup**  
+Open the `frontend/index.html` file in your browser to access the application.
 
 ---
 
-## **Usage**
-
-1. Paste a valid YouTube URL in the input field.  
-2. Fetch available video and subtitle options.  
-3. Select your preferences and hit Download.  
-4. Enjoy your downloaded video and subtitles offline!
-
----
-
-## **How It Works**
-
-1. **Input Processing**: Extracts video details from the provided YouTube URL.  
-2. **Video Quality Fetching**: Fetches available formats via yt-dlp.  
-3. **Subtitle Integration**: Checks and retrieves subtitle files for the video.  
-4. **Download Options**: Provides a tailored list of video and subtitle download choices.  
+## **Usage**  
+1. Paste the YouTube video URL in the input field.  
+2. Fetch available video quality and subtitle options.  
+3. Select your desired options and click "Download."  
+4. Enjoy offline viewing with downloaded videos and subtitles!
 
 ---
 
-## **Future Enhancements**
+## **How It Works**  
 
-- 🎵 **Audio Downloads**: Add support for audio-only formats like MP3.  
-- 🌍 **Subtitle Languages**: Support multiple languages for subtitles.  
-- ⚡ **Batch Processing**: Allow users to download multiple videos at once.  
-- 📱 **Mobile Compatibility**: Optimize UI for smartphones and tablets.
+1. **Input Processing**: Parses the YouTube URL to extract video information.  
+2. **Video Format Detection**: Retrieves available video qualities using `yt-dlp`.  
+3. **Subtitle Integration**: Detects and downloads subtitle files for the video.  
+4. **Download Options**: Provides a tailored list of video and subtitle choices for download.  
 
 ---
 
-## **Contributing**
+## **Planned Enhancements**  
+- **Audio-Only Downloads**: Support for MP3 and other audio formats.  
+- **Multilingual Subtitles**: Download subtitles in various languages.  
+- **Batch Processing**: Enable multiple video downloads simultaneously.  
+- **Mobile Optimization**: Improve compatibility with mobile devices.  
 
-Contributions, feedback, and feature requests are welcome! Fork the repository, create a branch, and submit a pull request.
+---
+
+## **Contributing**  
+We welcome contributions, feedback, and feature suggestions! To contribute:  
+1. Fork this repository.  
+2. Create a feature branch.  
+3. Submit a pull request with your proposed changes.
+
+[View on GitHub](https://github.com/iamricky17/youtube-downloader)  
+
+---
